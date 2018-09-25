@@ -1,0 +1,71 @@
+body {
+  font: 100%/1.618 sans-serif;
+  background-color: #EDF8F9;
+  margin: 0 auto;
+  height: 100%;
+  display: table;
+  padding: 190px 100px;
+}
+
+h1 {
+  font-size: 22px;
+  margin: 10px -10px 15px -15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#calculator {
+  display: block;
+  width: 170px;
+  background-color: #C2ECF2;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 3px 0 #a1a1a1, 0 4px 8px rgba(0, 0, 0, .65);
+}
+
+#result {
+  width: 155px;
+  height: 35px;
+  background-color: #cddecc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  text-align: right;
+  line-height: 34px;
+  font-family: digital;
+  padding: 0px 5px 0px 5px;
+  font-size: 25px;
+  overflow: hidden;
+  box-shadow: inset 0 0px 3px;
+}
+
+.key {
+  width: 35px;
+  background-color: #eeeeee;
+  display: inline-block;
+  margin: 5px 0px 5px 3px;
+  vertical-align: bottom;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 3px 0 #a1a1a1, 0 2px 5px rgba(0, 0, 0, .75);
+}
+
+.equal-key {
+  width: 120px;
+  background-color: #5F9BF2;
+  color: white;
+}
+
+.clear-key {
+  background-color: #5F9BF2;
+  color: white;
+}
+
+.key:active {
+  background-color: #a1a1a1;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
